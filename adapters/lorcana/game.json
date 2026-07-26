@@ -1,0 +1,113 @@
+{
+  "name": "Disney Lorcana (Mod)",
+  "max_copies": 4,
+  "rarity_colors": {
+    "common": "#9e9e9e",
+    "uncommon": "#8bc7a8",
+    "rare": "#5ba8f0",
+    "super_rare": "#b07ef0",
+    "legendary": "#f0c04a",
+    "enchanted": "#ff7ad9"
+  },
+  "provider": {
+    "catalog_url": "https://api.lorcana-api.com/cards/fetch?search=set_num%3D{set_code}&displayonly=Name,Rarity,Card_Num,Set_Num,Image,Unique_ID",
+    "list_path": "",
+    "map": {
+      "id": "Unique_ID",
+      "name": "Name",
+      "rarity": "Rarity",
+      "cn": "Card_Num",
+      "img": "Image"
+    }
+  },
+  "editions": [
+    {
+      "id": "tfc",
+      "display_name": "The First Chapter (Mod)",
+      "set_code": "1",
+      "pack_name": "Booster",
+      "booster_art_url": "https://product-images.tcgplayer.com/482406.jpg",
+      "slots": [
+        {
+          "count": 6,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 3,
+          "rarities": {
+            "uncommon": 1
+          }
+        },
+        {
+          "count": 2,
+          "rarities": {
+            "rare": 5,
+            "super_rare": 2,
+            "legendary": 1
+          }
+        },
+        {
+          "count": 1,
+          "foil": true,
+          "rarities": {
+            "common": 8,
+            "uncommon": 4,
+            "rare": 3,
+            "super_rare": 2,
+            "legendary": 1,
+            "enchanted": 0.3
+          }
+        }
+      ],
+      "pack_price": 6
+    },
+    {
+      "id": "wun",
+      "display_name": "Wilds Unknown (Mod)",
+      "set_code": "12",
+      "pack_name": "Booster",
+      "pack_price": 6,
+      "slots": [
+        {
+          "count": 6,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 3,
+          "rarities": {
+            "uncommon": 1
+          }
+        },
+        {
+          "count": 2,
+          "rarities": {
+            "rare": 5,
+            "super_rare": 2,
+            "legendary": 1
+          }
+        },
+        {
+          "count": 1,
+          "foil": true,
+          "rarities": {
+            "common": 8,
+            "uncommon": 4,
+            "rare": 3,
+            "super_rare": 2,
+            "legendary": 1,
+            "enchanted": 0.3
+          }
+        }
+      ]
+    }
+  ],
+  "cn_position": [
+    0.12,
+    0.955
+  ],
+  "seed_version": 3
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Magic the Gathering (Mod)",
+  "max_copies": 4,
+  "rarity_colors": {
+    "common": "#9e9e9e",
+    "uncommon": "#7fd1c0",
+    "rare": "#f0c04a",
+    "mythic": "#ff8a3c"
+  },
+  "provider": {
+    "catalog_url": "https://api.scryfall.com/cards/search?q=e%3A{set_code}&unique=prints&order=set",
+    "list_path": "data",
+    "next_path": "next_page",
+    "map": {
+      "name": "name",
+      "rarity": "rarity",
+      "cn": "collector_number",
+      "img": "image_uris.normal",
+      "img_small": "image_uris.small"
+    }
+  },
+  "editions": [
+    {
+      "id": "spm",
+      "display_name": "Marvel's Spider-Man (Mod)",
+      "set_code": "spm",
+      "pack_name": "Booster",
+      "booster_art_url": "https://product-images.tcgplayer.com/621106.jpg",
+      "slots": [
+        {
+          "count": 7,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 3,
+          "rarities": {
+            "uncommon": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "common": 10,
+            "uncommon": 6,
+            "rare": 3,
+            "mythic": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "rare": 6,
+            "mythic": 1
+          }
+        },
+        {
+          "count": 1,
+          "foil": true,
+          "rarities": {
+            "common": 10,
+            "uncommon": 6,
+            "rare": 3,
+            "mythic": 1
+          }
+        }
+      ],
+      "pack_price": 5
+    },
+    {
+      "id": "ltr",
+      "display_name": "The Lord of the Rings (Mod)",
+      "set_code": "ltr",
+      "pack_name": "Set Booster",
+      "booster_art_url": "https://product-images.tcgplayer.com/484908.jpg",
+      "slots": [
+        {
+          "count": 7,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 3,
+          "rarities": {
+            "uncommon": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "common": 10,
+            "uncommon": 6,
+            "rare": 3,
+            "mythic": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "rare": 6,
+            "mythic": 1
+          }
+        },
+        {
+          "count": 1,
+          "foil": true,
+          "rarities": {
+            "common": 10,
+            "uncommon": 6,
+            "rare": 3,
+            "mythic": 1
+          }
+        }
+      ],
+      "pack_price": 10
+    },
+    {
+      "id": "msh",
+      "display_name": "Marvel Super Heroes (Mod)",
+      "set_code": "msh",
+      "pack_name": "Play Booster",
+      "pack_price": 6,
+      "slots": [
+        {
+          "count": 7,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "common": 1
+          }
+        },
+        {
+          "count": 3,
+          "rarities": {
+            "uncommon": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "common": 10,
+            "uncommon": 6,
+            "rare": 3,
+            "mythic": 1
+          }
+        },
+        {
+          "count": 1,
+          "rarities": {
+            "rare": 6,
+            "mythic": 1
+          }
+        },
+        {
+          "count": 1,
+          "foil": true,
+          "rarities": {
+            "common": 10,
+            "uncommon": 6,
+            "rare": 3,
+            "mythic": 1
+          }
+        }
+      ]
+    }
+  ],
+  "cn_position": [
+    0.1,
+    0.945
+  ],
+  "seed_version": 5
+}

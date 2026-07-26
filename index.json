@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "mods": [
+    {
+      "id": "lorcana",
+      "kind": "adapter",
+      "name": "Disney Lorcana (Mod)",
+      "seed_version": 3,
+      "editions": [
+        "tfc",
+        "wun"
+      ],
+      "download": "adapters/lorcana/game.json"
+    },
+    {
+      "id": "mtg-scryfall",
+      "kind": "adapter",
+      "name": "Magic the Gathering (Mod)",
+      "seed_version": 5,
+      "editions": [
+        "spm",
+        "ltr",
+        "msh"
+      ],
+      "download": "adapters/mtg-scryfall/game.json"
+    },
+    {
+      "id": "yugioh",
+      "kind": "adapter",
+      "name": "Yu-Gi-Oh! (Mod)",
+      "seed_version": 1,
+      "editions": [
+        "cori"
+      ],
+      "download": "adapters/yugioh/game.json"
+    }
+  ]
+}
