@@ -1,0 +1,9 @@
+{
+  "name": "Bottlecaps (Tweak)",
+  "seed_version": 1,
+  "min_app_version": "0.1",
+  "tweaks": {
+    "currency_name": {"en": "Bottlecaps", "de": "Kronkorken"},
+    "currency_icon": "bottlecap.png"
+  }
+}

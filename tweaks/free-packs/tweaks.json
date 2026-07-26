@@ -1,0 +1,9 @@
+{
+  "name": "Free Packs (Tweak)",
+  "seed_version": 1,
+  "min_app_version": "0.1",
+  "tweaks": {
+    "pack_price_multiplier": 0.0,
+    "divider_price_multiplier": 0.0
+  }
+}

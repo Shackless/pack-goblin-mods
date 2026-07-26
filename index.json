@@ -33,6 +33,31 @@
         "cori"
       ],
       "download": "adapters/yugioh/game.json"
+    },
+    {
+      "id": "god-mode",
+      "kind": "tweak",
+      "name": "God Mode (Tweak)",
+      "seed_version": 1,
+      "download": "tweaks/god-mode/tweaks.json"
+    },
+    {
+      "id": "free-packs",
+      "kind": "tweak",
+      "name": "Free Packs (Tweak)",
+      "seed_version": 1,
+      "download": "tweaks/free-packs/tweaks.json"
+    },
+    {
+      "id": "bottlecaps",
+      "kind": "tweak",
+      "name": "Bottlecaps (Tweak)",
+      "seed_version": 1,
+      "download": "tweaks/bottlecaps/tweaks.json",
+      "files": [
+        "tweaks/bottlecaps/tweaks.json",
+        "tweaks/bottlecaps/bottlecap.png"
+      ]
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "name": "God Mode (Tweak)",
+  "seed_version": 1,
+  "min_app_version": "0.1",
+  "tweaks": {
+    "gold_multiplier": 100.0
+  }
+}
