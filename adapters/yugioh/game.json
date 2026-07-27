@@ -18,7 +18,8 @@
       "cn": "id",
       "rarity": "card_sets.0.set_rarity",
       "img": "card_images.0.image_url",
-      "img_small": "card_images.0.image_url_small"
+      "img_small": "card_images.0.image_url_small",
+      "price": "card_prices.0.tcgplayer_price"
     }
   },
   "editions": [
@@ -43,8 +44,9 @@
             "secret_rare": 1
           }
         }
-      ]
+      ],
+      "booster_art_url": "https://product-images.tcgplayer.com/691168.jpg"
     }
   ],
-  "seed_version": 1
+  "seed_version": 2
 }

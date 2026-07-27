@@ -16,7 +16,8 @@
       "rarity": "rarity",
       "cn": "collector_number",
       "img": "image_uris.normal",
-      "img_small": "image_uris.small"
+      "img_small": "image_uris.small",
+      "price": "prices.usd"
     }
   },
   "editions": [
@@ -179,12 +180,13 @@
             "mythic": 1
           }
         }
-      ]
+      ],
+      "booster_art_url": "https://product-images.tcgplayer.com/675602.jpg"
     }
   ],
   "cn_position": [
     0.1,
     0.945
   ],
-  "seed_version": 5
+  "seed_version": 6
 }

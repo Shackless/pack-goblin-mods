@@ -102,12 +102,13 @@
             "enchanted": 0.3
           }
         }
-      ]
+      ],
+      "booster_art_url": "https://product-images.tcgplayer.com/678167.jpg"
     }
   ],
   "cn_position": [
     0.12,
     0.955
   ],
-  "seed_version": 3
+  "seed_version": 4
 }
