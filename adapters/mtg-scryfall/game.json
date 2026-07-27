@@ -17,7 +17,8 @@
       "cn": "collector_number",
       "img": "image_uris.normal",
       "img_small": "image_uris.small",
-      "price": "prices.usd"
+      "price": "prices.usd",
+      "price_foil": "prices.usd_foil"
     }
   },
   "editions": [
@@ -188,5 +189,5 @@
     0.1,
     0.945
   ],
-  "seed_version": 6
+  "seed_version": 7
 }
