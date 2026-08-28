@@ -18,6 +18,15 @@
       "rarity": "Rarity",
       "cn": "Card_Num",
       "img": "Image"
+    },
+    "prices": {
+      "url": "https://api.lorcast.com/v0/cards/search?q=set:{set_code}",
+      "list_path": "results",
+      "map": {
+        "cn": "collector_number",
+        "price": "prices.usd",
+        "price_foil": "prices.usd_foil"
+      }
     }
   },
   "editions": [
@@ -110,5 +119,5 @@
     0.12,
     0.955
   ],
-  "seed_version": 4
+  "seed_version": 5
 }
