@@ -1,0 +1,24 @@
+name: Mirror to GitHub
+# Pushes main 1:1 to the public mirror the in-game mod browser reads from.
+# Auth: a write deploy key of the GitHub repo, stored as the Actions secret MIRROR_SSH_KEY.
+on:
+  push:
+    branches: [main]
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Push main to GitHub
+        env:
+          MIRROR_SSH_KEY: ${{ secrets.MIRROR_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$MIRROR_SSH_KEY" > ~/.ssh/mirror && chmod 600 ~/.ssh/mirror
+          printf '%s\n' 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' >> ~/.ssh/known_hosts
+          GIT_SSH_COMMAND="ssh -i ~/.ssh/mirror -o IdentitiesOnly=yes" \
+            git push --force git@github.com:Shackless/pack-goblin-mods.git HEAD:refs/heads/main
