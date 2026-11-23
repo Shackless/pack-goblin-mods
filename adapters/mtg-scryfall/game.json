@@ -19,6 +19,13 @@
       "img_small": "image_uris.small",
       "price": "prices.usd",
       "price_foil": "prices.usd_foil"
+    },
+    "sets_url": "https://api.scryfall.com/sets",
+    "sets_list_path": "data",
+    "sets_next_path": "next_page",
+    "sets_map": {
+      "code": "code",
+      "name": "name"
     }
   },
   "editions": [
@@ -189,5 +196,5 @@
     0.1,
     0.945
   ],
-  "seed_version": 7
+  "seed_version": 8
 }

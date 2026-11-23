@@ -27,6 +27,13 @@
         "price": "prices.usd",
         "price_foil": "prices.usd_foil"
       }
+    },
+    "sets_url": "https://api.lorcana-api.com/sets/fetch",
+    "sets_list_path": "",
+    "sets_map": {
+      "code": "Set_Num",
+      "name": "Name",
+      "abbr": "Set_ID"
     }
   },
   "editions": [
@@ -119,5 +126,5 @@
     0.12,
     0.955
   ],
-  "seed_version": 5
+  "seed_version": 6
 }

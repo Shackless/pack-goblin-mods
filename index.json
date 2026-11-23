@@ -5,7 +5,7 @@
       "id": "lorcana",
       "kind": "adapter",
       "name": "Disney Lorcana (Mod)",
-      "seed_version": 5,
+      "seed_version": 6,
       "editions": [
         "tfc",
         "wun"
@@ -16,7 +16,7 @@
       "id": "mtg-scryfall",
       "kind": "adapter",
       "name": "Magic the Gathering (Mod)",
-      "seed_version": 7,
+      "seed_version": 8,
       "editions": [
         "spm",
         "ltr",
