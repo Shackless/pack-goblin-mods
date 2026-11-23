@@ -28,7 +28,7 @@
       "id": "yugioh",
       "kind": "adapter",
       "name": "Yu-Gi-Oh! (Mod)",
-      "seed_version": 2,
+      "seed_version": 3,
       "editions": [
         "cori"
       ],

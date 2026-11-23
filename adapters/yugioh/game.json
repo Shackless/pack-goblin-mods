@@ -11,7 +11,7 @@
     "ultimate_rare": "#ff8a3c"
   },
   "provider": {
-    "catalog_url": "https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset=Chaos%20Origins",
+    "catalog_url": "https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset={set_code}",
     "list_path": "data",
     "map": {
       "name": "name",
@@ -20,13 +20,20 @@
       "img": "card_images.0.image_url",
       "img_small": "card_images.0.image_url_small",
       "price": "card_prices.0.tcgplayer_price"
+    },
+    "sets_url": "https://db.ygoprodeck.com/api/v7/cardsets.php",
+    "sets_list_path": "",
+    "sets_map": {
+      "code": "set_name",
+      "name": "set_name",
+      "abbr": "set_code"
     }
   },
   "editions": [
     {
       "id": "cori",
       "display_name": "Chaos Origins (Mod)",
-      "set_code": "cori",
+      "set_code": "Chaos Origins",
       "pack_name": "Booster",
       "pack_price": 4,
       "slots": [
@@ -48,5 +55,5 @@
       "booster_art_url": "https://product-images.tcgplayer.com/691168.jpg"
     }
   ],
-  "seed_version": 2
+  "seed_version": 3
 }
