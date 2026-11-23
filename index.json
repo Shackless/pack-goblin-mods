@@ -16,7 +16,7 @@
       "id": "mtg-scryfall",
       "kind": "adapter",
       "name": "Magic the Gathering (Mod)",
-      "seed_version": 8,
+      "seed_version": 9,
       "editions": [
         "spm",
         "ltr",
